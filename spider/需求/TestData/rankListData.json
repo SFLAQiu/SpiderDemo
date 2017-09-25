@@ -1,0 +1,1832 @@
+{
+    "anchorListData": {
+        "dayListData": [
+            {
+                "statu": "2",
+                "ttl": 1437,
+                "title": "之前排名第2位",
+                "uid": "11235324",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/011\/23\/53\/24_avatar_middle.jpg?rltime",
+                "nickname": "胜哥002",
+                "is_live": true,
+                "id": 1,
+                "room_id": "414818",
+                "catagory": "DNF",
+                "sc": 73208,
+                "anchorLevelInfo": {
+                    "level": "56"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第1位",
+                "uid": "602727",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/02\/07\/ef8268078571221c91ec6bd644c0d2fe_middle.jpg?rltime",
+                "nickname": "无心印Lucian丶",
+                "is_live": false,
+                "id": 2,
+                "room_id": "103755",
+                "catagory": "英雄联盟",
+                "sc": 73078,
+                "anchorLevelInfo": {
+                    "level": "39"
+                }
+            },
+            {
+                "statu": "2",
+                "ttl": 1433,
+                "title": "之前排名第7位",
+                "uid": "30241731",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201705\/15\/13\/f011506525ce9fb6c6de7c9c46600c21_middle.jpg?rltime",
+                "nickname": "女盲僧猫猫",
+                "is_live": true,
+                "id": 3,
+                "room_id": "688631",
+                "catagory": "英雄联盟",
+                "sc": 58368,
+                "anchorLevelInfo": {
+                    "level": "45"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1433,
+                "title": "之前排名第3位",
+                "uid": "212654",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/31\/16\/8a971d8ca738cb42c2331936864ee75c_middle.jpg?rltime",
+                "nickname": "陆叁贰肆一台",
+                "is_live": false,
+                "id": 4,
+                "room_id": "6324",
+                "catagory": "英雄联盟",
+                "sc": 55192,
+                "anchorLevelInfo": {
+                    "level": "62"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1433,
+                "title": "之前排名第4位",
+                "uid": "13217521",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/05\/12\/34abd3181edf47ba612929f77ab7eeee_middle.jpg?rltime",
+                "nickname": "小白鸽WhiteDove",
+                "is_live": false,
+                "id": 5,
+                "room_id": "228989",
+                "catagory": "DOTA2",
+                "sc": 51866,
+                "anchorLevelInfo": {
+                    "level": "39"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1433,
+                "title": "之前排名第5位",
+                "uid": "24969433",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/09\/05\/4805e97afdd5e15ed80b7cb2fd907779_middle.jpg?rltime",
+                "nickname": "混丶曼酱",
+                "is_live": true,
+                "id": 6,
+                "room_id": "1558888",
+                "catagory": "英雄联盟",
+                "sc": 51335,
+                "anchorLevelInfo": {
+                    "level": "44"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1433,
+                "title": "之前排名第6位",
+                "uid": "13165979",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/17\/15\/4cb1ab92f1477243c5c7243b37096f67_middle.jpg?rltime",
+                "nickname": "叫我久哥哥",
+                "is_live": true,
+                "id": 7,
+                "room_id": "271934",
+                "catagory": "英雄联盟",
+                "sc": 51098,
+                "anchorLevelInfo": {
+                    "level": "68"
+                }
+            },
+            {
+                "statu": 2,
+                "ttl": 1430,
+                "title": "之前未上榜",
+                "uid": "5286779",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/005\/28\/67\/79_avatar_middle.jpg?rltime",
+                "nickname": "超越Oo一天",
+                "is_live": true,
+                "id": 8,
+                "room_id": "109868",
+                "catagory": "足球竞技",
+                "sc": 48310,
+                "anchorLevelInfo": {
+                    "level": "41"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1430,
+                "title": "之前排名第8位",
+                "uid": "2816512",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/04\/15\/cb3df107780753cc9d2731df031591a4_middle.jpg?rltime",
+                "nickname": "时间刺客李政",
+                "is_live": false,
+                "id": 9,
+                "room_id": "197320",
+                "catagory": "英雄联盟",
+                "sc": 44586,
+                "anchorLevelInfo": {
+                    "level": "43"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1430,
+                "title": "之前排名第9位",
+                "uid": "184165",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/000\/18\/41\/65_avatar_middle.jpg?rltime",
+                "nickname": "饼干狂魔MasterB",
+                "is_live": true,
+                "id": 10,
+                "room_id": "4809",
+                "catagory": "英雄联盟",
+                "sc": 39967,
+                "anchorLevelInfo": {
+                    "level": "57"
+                }
+            }
+        ],
+        "weekListData": [
+            {
+                "statu": "2",
+                "ttl": 1437,
+                "title": "之前排名第2位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/011\/23\/53\/24_avatar_middle.jpg?rltime",
+                "nickname": "胜哥002",
+                "is_live": true,
+                "id": 1,
+                "uid": "11235324",
+                "room_id": "414818",
+                "sc": 73206,
+                "catagory": "DNF",
+                "anchorLevelInfo": {
+                    "level": "56"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第1位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/02\/07\/ef8268078571221c91ec6bd644c0d2fe_middle.jpg?rltime",
+                "nickname": "无心印Lucian丶",
+                "is_live": false,
+                "id": 2,
+                "uid": "602727",
+                "room_id": "103755",
+                "sc": 73078,
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "39"
+                }
+            },
+            {
+                "statu": "2",
+                "ttl": 1433,
+                "title": "之前排名第7位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201705\/15\/13\/f011506525ce9fb6c6de7c9c46600c21_middle.jpg?rltime",
+                "nickname": "女盲僧猫猫",
+                "is_live": true,
+                "id": 3,
+                "uid": "30241731",
+                "room_id": "688631",
+                "sc": 57708,
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "45"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1433,
+                "title": "之前排名第3位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/31\/16\/8a971d8ca738cb42c2331936864ee75c_middle.jpg?rltime",
+                "nickname": "陆叁贰肆一台",
+                "is_live": false,
+                "id": 4,
+                "uid": "212654",
+                "room_id": "6324",
+                "sc": 55192,
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "62"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1433,
+                "title": "之前排名第4位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/05\/12\/34abd3181edf47ba612929f77ab7eeee_middle.jpg?rltime",
+                "nickname": "小白鸽WhiteDove",
+                "is_live": false,
+                "id": 5,
+                "uid": "13217521",
+                "room_id": "228989",
+                "sc": 51866,
+                "catagory": "DOTA2",
+                "anchorLevelInfo": {
+                    "level": "39"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1433,
+                "title": "之前排名第5位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/09\/05\/4805e97afdd5e15ed80b7cb2fd907779_middle.jpg?rltime",
+                "nickname": "混丶曼酱",
+                "is_live": true,
+                "id": 6,
+                "uid": "24969433",
+                "room_id": "1558888",
+                "sc": 51335,
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "44"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1433,
+                "title": "之前排名第6位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/17\/15\/4cb1ab92f1477243c5c7243b37096f67_middle.jpg?rltime",
+                "nickname": "叫我久哥哥",
+                "is_live": true,
+                "id": 7,
+                "uid": "13165979",
+                "room_id": "271934",
+                "sc": 51098,
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "68"
+                }
+            },
+            {
+                "statu": 2,
+                "ttl": 1430,
+                "title": "之前未上榜",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/005\/28\/67\/79_avatar_middle.jpg?rltime",
+                "nickname": "超越Oo一天",
+                "is_live": true,
+                "id": 8,
+                "uid": "5286779",
+                "room_id": "109868",
+                "sc": 48310,
+                "catagory": "足球竞技",
+                "anchorLevelInfo": {
+                    "level": "41"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1430,
+                "title": "之前排名第8位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/04\/15\/cb3df107780753cc9d2731df031591a4_middle.jpg?rltime",
+                "nickname": "时间刺客李政",
+                "is_live": false,
+                "id": 9,
+                "uid": "2816512",
+                "room_id": "197320",
+                "sc": 44586,
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "43"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 1430,
+                "title": "之前排名第9位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/000\/18\/41\/65_avatar_middle.jpg?rltime",
+                "nickname": "饼干狂魔MasterB",
+                "is_live": true,
+                "id": 10,
+                "uid": "184165",
+                "room_id": "4809",
+                "sc": 39907,
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "57"
+                }
+            }
+        ],
+        "monthListData": [
+            {
+                "statu": "0",
+                "ttl": 869,
+                "title": "",
+                "uid": "19494860",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/24\/18\/a1397d35f617466ec8cb7c3f48174780_middle.jpg?rltime",
+                "nickname": "阿冷aleng丶",
+                "is_live": false,
+                "id": 1,
+                "room_id": "2371789",
+                "catagory": "英雄联盟",
+                "sc": 2714147,
+                "anchorLevelInfo": {
+                    "level": "88"
+                }
+            },
+            {
+                "statu": "0",
+                "ttl": 869,
+                "title": "",
+                "uid": "4757314",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201612\/30\/02\/c14ddc0a4d121d32fc5d150f0e97448b_middle.jpg?rltime",
+                "nickname": "White55开解说",
+                "is_live": false,
+                "id": 2,
+                "room_id": "138286",
+                "catagory": "英雄联盟",
+                "sc": 2118208,
+                "anchorLevelInfo": {
+                    "level": "84"
+                }
+            },
+            {
+                "statu": "0",
+                "ttl": 1303,
+                "title": "",
+                "uid": "11235324",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/011\/23\/53\/24_avatar_middle.jpg?rltime",
+                "nickname": "胜哥002",
+                "is_live": true,
+                "id": 3,
+                "room_id": "414818",
+                "catagory": "DNF",
+                "sc": 1931184,
+                "anchorLevelInfo": {
+                    "level": "56"
+                }
+            },
+            {
+                "statu": "0",
+                "ttl": 1303,
+                "title": "",
+                "uid": "2954707",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201610\/17\/19\/b1060e87c9d17bd37e22c6a63818f07e_middle.jpg?rltime",
+                "nickname": "东北大鹌鹑",
+                "is_live": false,
+                "id": 4,
+                "room_id": "96291",
+                "catagory": "英雄联盟",
+                "sc": 1702540,
+                "anchorLevelInfo": {
+                    "level": "69"
+                }
+            },
+            {
+                "statu": "0",
+                "ttl": 1303,
+                "title": "",
+                "uid": "1974429",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/001\/97\/44\/29_avatar_middle.jpg?rltime",
+                "nickname": "刘飞儿faye",
+                "is_live": false,
+                "id": 5,
+                "room_id": "265438",
+                "catagory": "炉石传说",
+                "sc": 1353382,
+                "anchorLevelInfo": {
+                    "level": "65"
+                }
+            },
+            {
+                "statu": "2",
+                "ttl": 506,
+                "title": "之前排名第8位",
+                "uid": "5270773",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/29\/20\/64b39bcf6c3e3e46972258a26d5b78df_middle.jpg?rltime",
+                "nickname": "老实敦厚的笑笑",
+                "is_live": false,
+                "id": 6,
+                "room_id": "154537",
+                "catagory": "英雄联盟",
+                "sc": 1305748,
+                "anchorLevelInfo": {
+                    "level": "68"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 506,
+                "title": "之前排名第6位",
+                "uid": "566516",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201704\/18\/19\/391ca206a4fe5671fdd922b784f5456f_middle.jpg?rltime",
+                "nickname": "pigff",
+                "is_live": false,
+                "id": 7,
+                "room_id": "24422",
+                "catagory": "守望先锋",
+                "sc": 1287939,
+                "anchorLevelInfo": {
+                    "level": "65"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 506,
+                "title": "之前排名第7位",
+                "uid": "184165",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/000\/18\/41\/65_avatar_middle.jpg?rltime",
+                "nickname": "饼干狂魔MasterB",
+                "is_live": true,
+                "id": 8,
+                "room_id": "4809",
+                "catagory": "英雄联盟",
+                "sc": 1078376,
+                "anchorLevelInfo": {
+                    "level": "57"
+                }
+            },
+            {
+                "statu": "2",
+                "ttl": 555,
+                "title": "之前排名第10位",
+                "uid": "212654",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/31\/16\/8a971d8ca738cb42c2331936864ee75c_middle.jpg?rltime",
+                "nickname": "陆叁贰肆一台",
+                "is_live": false,
+                "id": 9,
+                "room_id": "6324",
+                "catagory": "英雄联盟",
+                "sc": 876468,
+                "anchorLevelInfo": {
+                    "level": "62"
+                }
+            },
+            {
+                "statu": "1",
+                "ttl": 555,
+                "title": "之前排名第9位",
+                "uid": "2310933",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/05\/12\/76d70c7c7906bd74eba9ab18a02872c6_middle.jpg?rltime",
+                "nickname": "叫我老陈就好了",
+                "is_live": true,
+                "id": 10,
+                "room_id": "74960",
+                "catagory": "DOTA2",
+                "sc": 841762,
+                "anchorLevelInfo": {
+                    "level": "48"
+                }
+            }
+        ]
+    },
+    "userListData": {
+        "dayListData": [
+            {
+                "statu": "2",
+                "ttl": 765,
+                "title": "之前排名第2位",
+                "nickname": "LionColin",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/11\/04\/54a4fb1e1a7377cff269aff3bbd64697_middle.jpg?rltime",
+                "noble_lvl": "0",
+                "id": "1",
+                "uid": "111685802",
+                "gx": 35001,
+                "level": 26,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 765,
+                "title": "之前排名第1位",
+                "nickname": "晨晨丨夏天的风",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/08\/22\/0eccd0adb633c40f9f26ccbf65c5bf77_middle.jpg?rltime",
+                "noble_lvl": "3",
+                "id": "2",
+                "uid": "21800918",
+                "gx": 34000,
+                "level": 48,
+                "number": ""
+            },
+            {
+                "statu": 2,
+                "ttl": 1418,
+                "title": "之前未上榜",
+                "nickname": "落雨静夜听",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/14\/22\/0396ea45a7c321d47a505aab8b67eca8_middle.jpg?rltime",
+                "noble_lvl": "2",
+                "id": "3",
+                "uid": "45503336",
+                "gx": 28000,
+                "level": 36,
+                "number": ""
+            },
+            {
+                "statu": 2,
+                "ttl": 1437,
+                "title": "之前未上榜",
+                "nickname": "心无梦想如何远航",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201704\/08\/21\/382eb4b378db91e1b086d3fb92a0af1a_middle.jpg?rltime",
+                "noble_lvl": "0",
+                "id": "4",
+                "uid": "19481139",
+                "gx": 25001,
+                "level": 29,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第4位",
+                "nickname": "混一哈",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/26\/14\/91d65a34ee95d77d3e2f642e7ee1650e_middle.jpg?rltime",
+                "noble_lvl": "6",
+                "id": "5",
+                "uid": "48604893",
+                "gx": 25000,
+                "level": 103,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第5位",
+                "nickname": "小布蕾的千毒",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/05\/00\/9e6405bc354083174a45b27e23fed50b_middle.jpg?rltime",
+                "noble_lvl": "0",
+                "id": "6",
+                "uid": "35033230",
+                "gx": 25000,
+                "level": 30,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第6位",
+                "nickname": "NewStart丶丶",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/04\/20\/11e3a044d94d3a5cc4b262aa797341e1_middle.jpg?rltime",
+                "noble_lvl": "2",
+                "id": "7",
+                "uid": "9034816",
+                "gx": 20000,
+                "level": 44,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第7位",
+                "nickname": "混丶纵火犯",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/face\/201609\/02\/25ee81f2a80949135a88645fdf84859b_middle.jpg?rltime",
+                "noble_lvl": "1",
+                "id": "8",
+                "uid": "36122693",
+                "gx": 18000,
+                "level": 53,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第8位",
+                "nickname": "Josie心里的大白鲨",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/15\/01\/3746ff710029812b5a13ab6454c3a81e_middle.jpg?rltime",
+                "noble_lvl": "4",
+                "id": "9",
+                "uid": "54680404",
+                "gx": 15000,
+                "level": 67,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第9位",
+                "nickname": "网红河",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/default\/11_middle.jpg?rltime",
+                "noble_lvl": "2",
+                "id": "10",
+                "uid": "143147723",
+                "gx": 15000,
+                "level": 26,
+                "number": ""
+            }
+        ],
+        "weekListData": [
+            {
+                "statu": "2",
+                "ttl": 765,
+                "title": "之前排名第2位",
+                "nickname": "LionColin",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/11\/04\/54a4fb1e1a7377cff269aff3bbd64697_middle.jpg?rltime",
+                "noble_lvl": "0",
+                "id": "1",
+                "uid": "111685802",
+                "gx": 35001,
+                "level": 26,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 765,
+                "title": "之前排名第1位",
+                "nickname": "晨晨丨夏天的风",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/08\/22\/0eccd0adb633c40f9f26ccbf65c5bf77_middle.jpg?rltime",
+                "noble_lvl": "3",
+                "id": "2",
+                "uid": "21800918",
+                "gx": 34000,
+                "level": 48,
+                "number": ""
+            },
+            {
+                "statu": 2,
+                "ttl": 1418,
+                "title": "之前未上榜",
+                "nickname": "落雨静夜听",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/14\/22\/0396ea45a7c321d47a505aab8b67eca8_middle.jpg?rltime",
+                "noble_lvl": "2",
+                "id": "3",
+                "uid": "45503336",
+                "gx": 28000,
+                "level": 36,
+                "number": ""
+            },
+            {
+                "statu": 2,
+                "ttl": 1437,
+                "title": "之前未上榜",
+                "nickname": "心无梦想如何远航",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201704\/08\/21\/382eb4b378db91e1b086d3fb92a0af1a_middle.jpg?rltime",
+                "noble_lvl": "0",
+                "id": "4",
+                "uid": "19481139",
+                "gx": 25001,
+                "level": 29,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第4位",
+                "nickname": "混一哈",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/26\/14\/91d65a34ee95d77d3e2f642e7ee1650e_middle.jpg?rltime",
+                "noble_lvl": "6",
+                "id": "5",
+                "uid": "48604893",
+                "gx": 25000,
+                "level": 103,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第5位",
+                "nickname": "小布蕾的千毒",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/05\/00\/9e6405bc354083174a45b27e23fed50b_middle.jpg?rltime",
+                "noble_lvl": "0",
+                "id": "6",
+                "uid": "35033230",
+                "gx": 25000,
+                "level": 30,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第6位",
+                "nickname": "NewStart丶丶",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/04\/20\/11e3a044d94d3a5cc4b262aa797341e1_middle.jpg?rltime",
+                "noble_lvl": "2",
+                "id": "7",
+                "uid": "9034816",
+                "gx": 20000,
+                "level": 44,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第7位",
+                "nickname": "混丶纵火犯",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/face\/201609\/02\/25ee81f2a80949135a88645fdf84859b_middle.jpg?rltime",
+                "noble_lvl": "1",
+                "id": "8",
+                "uid": "36122693",
+                "gx": 18000,
+                "level": 53,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第8位",
+                "nickname": "Josie心里的大白鲨",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/15\/01\/3746ff710029812b5a13ab6454c3a81e_middle.jpg?rltime",
+                "noble_lvl": "4",
+                "id": "9",
+                "uid": "54680404",
+                "gx": 15000,
+                "level": 67,
+                "number": ""
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第9位",
+                "nickname": "网红河",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/default\/11_middle.jpg?rltime",
+                "noble_lvl": "2",
+                "id": "10",
+                "uid": "143147723",
+                "gx": 15000,
+                "level": 26,
+                "number": ""
+            }
+        ],
+        "monthListData": [
+            {
+                "statu": "0",
+                "ttl": 18,
+                "title": "",
+                "nickname": "南派倒斗丶牛总",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/25\/08\/a42ad9a5956028dcd069acf6ec2ef99f_middle.jpg?rltime",
+                "noble_lvl": "6",
+                "id": "1",
+                "uid": "92939658",
+                "gx": 1005000,
+                "level": 112,
+                "number": ""
+            },
+            {
+                "statu": "0",
+                "ttl": 1431,
+                "title": "",
+                "nickname": "桂花酸梅2004",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/default\/07_middle.jpg?rltime",
+                "noble_lvl": "3",
+                "id": "2",
+                "uid": "152263851",
+                "gx": 981040,
+                "level": 71,
+                "number": ""
+            },
+            {
+                "statu": "0",
+                "ttl": 322,
+                "title": "",
+                "nickname": "远饭集团行政总裁",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/13\/15\/67c7ddaeb0c9f6c35bab791c4409801f_middle.jpg?rltime",
+                "noble_lvl": "6",
+                "id": "3",
+                "uid": "35769713",
+                "gx": 783960,
+                "level": 52,
+                "number": ""
+            },
+            {
+                "statu": "0",
+                "ttl": 322,
+                "title": "",
+                "nickname": "空空很可爱",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/09\/16\/9d9d9a228561e127859bd363b58d540b_middle.jpg?rltime",
+                "noble_lvl": "5",
+                "id": "4",
+                "uid": "59714730",
+                "gx": 762006,
+                "level": 81,
+                "number": ""
+            },
+            {
+                "statu": "0",
+                "ttl": 597,
+                "title": "",
+                "nickname": "低调少年郭源潮",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/06\/12\/1a05b87ee5bb839fd5d612f70ef8e98e_middle.jpg?rltime",
+                "noble_lvl": "5",
+                "id": "5",
+                "uid": "3869314",
+                "gx": 587443,
+                "level": 56,
+                "number": ""
+            },
+            {
+                "statu": "0",
+                "ttl": 498,
+                "title": "",
+                "nickname": "落笔花谢",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/04\/09\/ea101fd73dad7bc1d7862c6b147997f4_middle.jpg?rltime",
+                "noble_lvl": "6",
+                "id": "6",
+                "uid": "19728716",
+                "gx": 545000,
+                "level": 79,
+                "number": ""
+            },
+            {
+                "statu": "0",
+                "ttl": 295,
+                "title": "",
+                "nickname": "李雨潼丿大徒弟",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/31\/13\/ba984157d2164644dca2a3b011d90a4b_middle.jpg?rltime",
+                "noble_lvl": "4",
+                "id": "7",
+                "uid": "109126723",
+                "gx": 407560,
+                "level": 54,
+                "number": ""
+            },
+            {
+                "statu": "0",
+                "ttl": 285,
+                "title": "",
+                "nickname": "混一哈",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/26\/14\/91d65a34ee95d77d3e2f642e7ee1650e_middle.jpg?rltime",
+                "noble_lvl": "6",
+                "id": "8",
+                "uid": "48604893",
+                "gx": 396000,
+                "level": 103,
+                "number": ""
+            },
+            {
+                "statu": "0",
+                "ttl": 663,
+                "title": "",
+                "nickname": "南极吃货小胖纸",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/18\/08\/00f39e315b1750eb9eb5451136fea241_middle.jpg?rltime",
+                "noble_lvl": "6",
+                "id": "9",
+                "uid": "145954120",
+                "gx": 355018,
+                "level": 76,
+                "number": ""
+            },
+            {
+                "statu": "0",
+                "ttl": 581,
+                "title": "",
+                "nickname": "龙啸天地间",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/27\/13\/bd07882ed7bdee14dd111a567101f4fc_middle.jpg?rltime",
+                "noble_lvl": "6",
+                "id": "10",
+                "uid": "70872354",
+                "gx": 320000,
+                "level": 117,
+                "number": ""
+            }
+        ]
+    },
+    "fansListData": {
+        "hotListData": [
+            {
+                "statu": "2",
+                "ttl": 1350,
+                "title": "之前排名第2位",
+                "is_live": true,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/011\/23\/53\/24_avatar_middle.jpg?rltime",
+                "anickname": "胜哥002",
+                "owner_uid": "11235324",
+                "isVertical": false,
+                "idx": 1,
+                "rid": "414818",
+                "week_num": "270",
+                "catagory": "DNF",
+                "fans_text": "胜总管",
+                "totlo_fans_num": "15981"
+            },
+            {
+                "statu": "1",
+                "ttl": 1350,
+                "title": "之前排名第1位",
+                "is_live": false,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/face\/201605\/17\/1bdf0f899878344dec940c1a58c169d9_middle.jpg?rltime",
+                "anickname": "尼古拉斯小七丶",
+                "owner_uid": "39321824",
+                "isVertical": false,
+                "idx": 2,
+                "rid": "549311",
+                "week_num": "210",
+                "catagory": "DNF",
+                "fans_text": "欧七",
+                "totlo_fans_num": "282"
+            },
+            {
+                "statu": "2",
+                "ttl": 1387,
+                "title": "之前排名第4位",
+                "is_live": true,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201702\/06\/17\/272e710dd0d97f25b9334298bc833aed_middle.jpg?rltime",
+                "anickname": "SKT直播faker",
+                "owner_uid": "107860619",
+                "isVertical": false,
+                "idx": 3,
+                "rid": "1691127",
+                "week_num": "173",
+                "catagory": "英雄联盟",
+                "fans_text": "李相赫",
+                "totlo_fans_num": "995"
+            },
+            {
+                "statu": "2",
+                "ttl": 1437,
+                "title": "之前排名第5位",
+                "is_live": true,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/000\/34\/82\/13_avatar_middle.jpg?rltime",
+                "anickname": "张宁_xiao8",
+                "owner_uid": "348213",
+                "isVertical": false,
+                "idx": 4,
+                "rid": "64609",
+                "week_num": "143",
+                "catagory": "DOTA2",
+                "fans_text": "小8路",
+                "totlo_fans_num": "8096"
+            },
+            {
+                "statu": "1",
+                "ttl": 1437,
+                "title": "之前排名第4位",
+                "is_live": false,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/04\/15\/cb3df107780753cc9d2731df031591a4_middle.jpg?rltime",
+                "anickname": "时间刺客李政",
+                "owner_uid": "2816512",
+                "isVertical": false,
+                "idx": 5,
+                "rid": "197320",
+                "week_num": "142",
+                "catagory": "英雄联盟",
+                "fans_text": "李政",
+                "totlo_fans_num": "1174"
+            },
+            {
+                "statu": "1",
+                "ttl": 1428,
+                "title": "之前排名第5位",
+                "is_live": false,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/08\/00\/e1862f57efc81509574b0d715fe81682_middle.jpg?rltime",
+                "anickname": "小子y",
+                "owner_uid": "35039417",
+                "isVertical": false,
+                "idx": 6,
+                "rid": "530791",
+                "week_num": "105",
+                "catagory": "英雄联盟",
+                "fans_text": "小子",
+                "totlo_fans_num": "4001"
+            },
+            {
+                "statu": "1",
+                "ttl": 1428,
+                "title": "之前排名第6位",
+                "is_live": true,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/000\/18\/41\/65_avatar_middle.jpg?rltime",
+                "anickname": "饼干狂魔MasterB",
+                "owner_uid": "184165",
+                "isVertical": false,
+                "idx": 7,
+                "rid": "4809",
+                "week_num": "105",
+                "catagory": "英雄联盟",
+                "fans_text": "4809",
+                "totlo_fans_num": "5165"
+            },
+            {
+                "statu": "1",
+                "ttl": 1428,
+                "title": "之前排名第7位",
+                "is_live": false,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/027\/11\/32\/13_avatar_middle.jpg?rltime",
+                "anickname": "我叫撸管飞",
+                "owner_uid": "27113213",
+                "isVertical": false,
+                "idx": 8,
+                "rid": "453751",
+                "week_num": "94",
+                "catagory": "英雄联盟",
+                "fans_text": "诺神",
+                "totlo_fans_num": "4548"
+            },
+            {
+                "statu": "1",
+                "ttl": 1427,
+                "title": "之前排名第8位",
+                "is_live": false,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/27\/23\/9e36782c64e2cdc1c82e9448465b2115_middle.jpg?rltime",
+                "anickname": "隔壁家的小妹妹",
+                "owner_uid": "6202357",
+                "isVertical": false,
+                "idx": 9,
+                "rid": "147887",
+                "week_num": "82",
+                "catagory": "DNF",
+                "fans_text": "毒瓜",
+                "totlo_fans_num": "2991"
+            },
+            {
+                "statu": "1",
+                "ttl": 1427,
+                "title": "之前排名第9位",
+                "is_live": false,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/05\/12\/34abd3181edf47ba612929f77ab7eeee_middle.jpg?rltime",
+                "anickname": "小白鸽WhiteDove",
+                "owner_uid": "13217521",
+                "isVertical": false,
+                "idx": 10,
+                "rid": "228989",
+                "week_num": "81",
+                "catagory": "DOTA2",
+                "fans_text": "小渣男",
+                "totlo_fans_num": "2032"
+            }
+        ],
+        "charmListData": [
+            {
+                "statu": "2",
+                "title": "之前排名第2位",
+                "is_live": false,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201612\/30\/02\/c14ddc0a4d121d32fc5d150f0e97448b_middle.jpg?rltime",
+                "anickname": "White55开解说",
+                "isVertical": false,
+                "idx": 1,
+                "rid": "138286",
+                "week_num": 133057,
+                "catagory": "英雄联盟",
+                "fans_text": "卢本伟",
+                "totlo_fans_num": "126145"
+            },
+            {
+                "statu": "2",
+                "title": "之前排名第3位",
+                "is_live": true,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/11\/08\/60346d60b8e39bb3e15a00c2908b2108_middle.jpg?rltime",
+                "anickname": "恩基爱萌萌哒的狗贼",
+                "isVertical": false,
+                "idx": 2,
+                "rid": "208114",
+                "week_num": 115172,
+                "catagory": "炉石传说",
+                "fans_text": "大狗贼",
+                "totlo_fans_num": "25102"
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第2位",
+                "is_live": false,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/000\/23\/62\/31_avatar_middle.jpg?rltime",
+                "anickname": "yyfyyf",
+                "isVertical": false,
+                "idx": 3,
+                "rid": "58428",
+                "week_num": 110830,
+                "catagory": "DOTA2",
+                "fans_text": "小僵尸",
+                "totlo_fans_num": "51527"
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第3位",
+                "is_live": true,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/17\/15\/4cb1ab92f1477243c5c7243b37096f67_middle.jpg?rltime",
+                "anickname": "叫我久哥哥",
+                "isVertical": false,
+                "idx": 4,
+                "rid": "271934",
+                "week_num": 96754,
+                "catagory": "英雄联盟",
+                "fans_text": "久哥哥",
+                "totlo_fans_num": "10065"
+            },
+            {
+                "statu": "2",
+                "title": "之前排名第6位",
+                "is_live": true,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/011\/23\/53\/24_avatar_middle.jpg?rltime",
+                "anickname": "胜哥002",
+                "isVertical": false,
+                "idx": 5,
+                "rid": "414818",
+                "week_num": 89920,
+                "catagory": "DNF",
+                "fans_text": "胜总管",
+                "totlo_fans_num": "15981"
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第5位",
+                "is_live": false,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201704\/18\/19\/391ca206a4fe5671fdd922b784f5456f_middle.jpg?rltime",
+                "anickname": "pigff",
+                "isVertical": false,
+                "idx": 6,
+                "rid": "24422",
+                "week_num": 66423,
+                "catagory": "守望先锋",
+                "fans_text": "猪芳芳",
+                "totlo_fans_num": "22363"
+            },
+            {
+                "statu": "2",
+                "title": "之前排名第8位",
+                "is_live": true,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/000\/34\/82\/13_avatar_middle.jpg?rltime",
+                "anickname": "张宁_xiao8",
+                "isVertical": false,
+                "idx": 7,
+                "rid": "64609",
+                "week_num": 65756,
+                "catagory": "DOTA2",
+                "fans_text": "小8路",
+                "totlo_fans_num": "8096"
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第7位",
+                "is_live": false,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/07\/12\/c5ad9b01b19f4abee16065b7feb22284_middle.jpg?rltime",
+                "anickname": "冯提莫",
+                "isVertical": false,
+                "idx": 8,
+                "rid": "71017",
+                "week_num": 63208,
+                "catagory": "英雄联盟",
+                "fans_text": "蘑菇",
+                "totlo_fans_num": "15937"
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第8位",
+                "is_live": false,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/31\/16\/8a971d8ca738cb42c2331936864ee75c_middle.jpg?rltime",
+                "anickname": "陆叁贰肆一台",
+                "isVertical": false,
+                "idx": 9,
+                "rid": "6324",
+                "week_num": 50008,
+                "catagory": "英雄联盟",
+                "fans_text": "嗨粉",
+                "totlo_fans_num": "5801"
+            },
+            {
+                "statu": 2,
+                "title": "之前未上榜",
+                "is_live": true,
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/000\/18\/41\/65_avatar_middle.jpg?rltime",
+                "anickname": "饼干狂魔MasterB",
+                "isVertical": false,
+                "idx": 10,
+                "rid": "4809",
+                "week_num": 46290,
+                "catagory": "英雄联盟",
+                "fans_text": "4809",
+                "totlo_fans_num": "5165"
+            }
+        ]
+    },
+    "haoyouListData": {
+        "dayListData": [
+            {
+                "statu": "2",
+                "title": "之前排名第2位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/02\/07\/ef8268078571221c91ec6bd644c0d2fe_middle.jpg?rltime",
+                "anickname": "无心印Lucian丶",
+                "owner_uid": "602727",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/11\/04\/54a4fb1e1a7377cff269aff3bbd64697_middle.jpg?rltime",
+                "unickname": "LionColin",
+                "id": 1,
+                "uid": "111685802",
+                "gx": 35001,
+                "level": 26,
+                "noble_lvl": "0",
+                "is_stealth": 0,
+                "room_id": "103755",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "39"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第1位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/02\/07\/ef8268078571221c91ec6bd644c0d2fe_middle.jpg?rltime",
+                "anickname": "无心印Lucian丶",
+                "owner_uid": "602727",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/08\/22\/0eccd0adb633c40f9f26ccbf65c5bf77_middle.jpg?rltime",
+                "unickname": "晨晨丨夏天的风",
+                "id": 2,
+                "uid": "21800918",
+                "gx": 34000,
+                "level": 48,
+                "noble_lvl": "3",
+                "is_stealth": 0,
+                "room_id": "103755",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "39"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": 2,
+                "title": "之前未上榜",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201704\/16\/18\/86ece2d298e705749e00b9536f0b2621_middle.jpg?rltime",
+                "anickname": "一只欢脱的索拉卡",
+                "owner_uid": "52167633",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/14\/22\/0396ea45a7c321d47a505aab8b67eca8_middle.jpg?rltime",
+                "unickname": "落雨静夜听",
+                "id": 3,
+                "uid": "45503336",
+                "gx": 26000,
+                "level": 36,
+                "noble_lvl": "2",
+                "is_stealth": 0,
+                "room_id": "1981414",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "34"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": 2,
+                "title": "之前未上榜",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201701\/10\/18\/3b2af3acdb1e5dea6c1058b05a16b5dc_middle.jpg?rltime",
+                "anickname": "漫天都是小末末i",
+                "owner_uid": "26885966",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201704\/08\/21\/382eb4b378db91e1b086d3fb92a0af1a_middle.jpg?rltime",
+                "unickname": "心无梦想如何远航",
+                "id": 4,
+                "uid": "19481139",
+                "gx": 25001,
+                "level": 29,
+                "noble_lvl": "0",
+                "is_stealth": 0,
+                "room_id": "536988",
+                "catagory": "竞速游戏",
+                "anchorLevelInfo": {
+                    "level": "31"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第4位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/25\/18\/59ab6fd2f1bd39c136bb8946fc7fe582_middle.jpg?rltime",
+                "anickname": "变态少女小布蕾",
+                "owner_uid": "3302904",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/05\/00\/9e6405bc354083174a45b27e23fed50b_middle.jpg?rltime",
+                "unickname": "小布蕾的千毒",
+                "id": 5,
+                "uid": "35033230",
+                "gx": 25000,
+                "level": 30,
+                "noble_lvl": "0",
+                "is_stealth": 0,
+                "room_id": "714248",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "31"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第5位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/005\/28\/67\/79_avatar_middle.jpg?rltime",
+                "anickname": "超越Oo一天",
+                "owner_uid": "5286779",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/04\/20\/11e3a044d94d3a5cc4b262aa797341e1_middle.jpg?rltime",
+                "unickname": "NewStart丶丶",
+                "id": 6,
+                "uid": "9034816",
+                "gx": 20000,
+                "level": 44,
+                "noble_lvl": "2",
+                "is_stealth": 0,
+                "room_id": "109868",
+                "catagory": "足球竞技",
+                "anchorLevelInfo": {
+                    "level": "41"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第6位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/31\/16\/8a971d8ca738cb42c2331936864ee75c_middle.jpg?rltime",
+                "anickname": "陆叁贰肆一台",
+                "owner_uid": "212654",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/26\/14\/91d65a34ee95d77d3e2f642e7ee1650e_middle.jpg?rltime",
+                "unickname": "混一哈",
+                "id": 7,
+                "uid": "48604893",
+                "gx": 20000,
+                "level": 103,
+                "noble_lvl": "6",
+                "is_stealth": "0",
+                "room_id": "6324",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "62"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第7位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/09\/05\/4805e97afdd5e15ed80b7cb2fd907779_middle.jpg?rltime",
+                "anickname": "混丶曼酱",
+                "owner_uid": "24969433",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/face\/201609\/02\/25ee81f2a80949135a88645fdf84859b_middle.jpg?rltime",
+                "unickname": "混丶纵火犯",
+                "id": 8,
+                "uid": "36122693",
+                "gx": 18000,
+                "level": 53,
+                "noble_lvl": "1",
+                "is_stealth": 0,
+                "room_id": "1558888",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "44"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第8位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/face\/201606\/19\/592fef63fb55c48c97e2bd1269b651b8_middle.jpg?rltime",
+                "anickname": "小周周Josie",
+                "owner_uid": "45546000",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/15\/01\/3746ff710029812b5a13ab6454c3a81e_middle.jpg?rltime",
+                "unickname": "Josie心里的大白鲨",
+                "id": 9,
+                "uid": "54680404",
+                "gx": 15000,
+                "level": 67,
+                "noble_lvl": "4",
+                "is_stealth": 0,
+                "room_id": "610254",
+                "catagory": "棋牌娱乐",
+                "anchorLevelInfo": {
+                    "level": "40"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第9位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/02\/14\/99164106d55b04a8348a7e8d0bba56ee_middle.jpg?rltime",
+                "anickname": "k1nbo",
+                "owner_uid": "13517317",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/default\/11_middle.jpg?rltime",
+                "unickname": "网红河",
+                "id": 10,
+                "uid": "143147723",
+                "gx": 15000,
+                "level": 26,
+                "noble_lvl": "2",
+                "is_stealth": 0,
+                "room_id": "2797328",
+                "catagory": "CS:GO",
+                "anchorLevelInfo": {
+                    "level": "23"
+                },
+                "user_identity": 0
+            }
+        ],
+        "weekListData": [
+            {
+                "statu": "2",
+                "title": "之前排名第2位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/02\/07\/ef8268078571221c91ec6bd644c0d2fe_middle.jpg?rltime",
+                "anickname": "无心印Lucian丶",
+                "owner_uid": "602727",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/11\/04\/54a4fb1e1a7377cff269aff3bbd64697_middle.jpg?rltime",
+                "unickname": "LionColin",
+                "id": 1,
+                "uid": "111685802",
+                "gx": 35001,
+                "level": 26,
+                "noble_lvl": "0",
+                "is_stealth": 0,
+                "room_id": "103755",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "39"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第1位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/02\/07\/ef8268078571221c91ec6bd644c0d2fe_middle.jpg?rltime",
+                "anickname": "无心印Lucian丶",
+                "owner_uid": "602727",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/08\/22\/0eccd0adb633c40f9f26ccbf65c5bf77_middle.jpg?rltime",
+                "unickname": "晨晨丨夏天的风",
+                "id": 2,
+                "uid": "21800918",
+                "gx": 34000,
+                "level": 48,
+                "noble_lvl": "3",
+                "is_stealth": 0,
+                "room_id": "103755",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "39"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": 2,
+                "title": "之前未上榜",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201704\/16\/18\/86ece2d298e705749e00b9536f0b2621_middle.jpg?rltime",
+                "anickname": "一只欢脱的索拉卡",
+                "owner_uid": "52167633",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/14\/22\/0396ea45a7c321d47a505aab8b67eca8_middle.jpg?rltime",
+                "unickname": "落雨静夜听",
+                "id": 3,
+                "uid": "45503336",
+                "gx": 26000,
+                "level": 36,
+                "noble_lvl": "2",
+                "is_stealth": 0,
+                "room_id": "1981414",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "34"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": 2,
+                "title": "之前未上榜",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201701\/10\/18\/3b2af3acdb1e5dea6c1058b05a16b5dc_middle.jpg?rltime",
+                "anickname": "漫天都是小末末i",
+                "owner_uid": "26885966",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201704\/08\/21\/382eb4b378db91e1b086d3fb92a0af1a_middle.jpg?rltime",
+                "unickname": "心无梦想如何远航",
+                "id": 4,
+                "uid": "19481139",
+                "gx": 25001,
+                "level": 29,
+                "noble_lvl": "0",
+                "is_stealth": 0,
+                "room_id": "536988",
+                "catagory": "竞速游戏",
+                "anchorLevelInfo": {
+                    "level": "31"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第4位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/25\/18\/59ab6fd2f1bd39c136bb8946fc7fe582_middle.jpg?rltime",
+                "anickname": "变态少女小布蕾",
+                "owner_uid": "3302904",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/05\/00\/9e6405bc354083174a45b27e23fed50b_middle.jpg?rltime",
+                "unickname": "小布蕾的千毒",
+                "id": 5,
+                "uid": "35033230",
+                "gx": 25000,
+                "level": 30,
+                "noble_lvl": "0",
+                "is_stealth": 0,
+                "room_id": "714248",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "31"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第5位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/005\/28\/67\/79_avatar_middle.jpg?rltime",
+                "anickname": "超越Oo一天",
+                "owner_uid": "5286779",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/04\/20\/11e3a044d94d3a5cc4b262aa797341e1_middle.jpg?rltime",
+                "unickname": "NewStart丶丶",
+                "id": 6,
+                "uid": "9034816",
+                "gx": 20000,
+                "level": 44,
+                "noble_lvl": "2",
+                "is_stealth": 0,
+                "room_id": "109868",
+                "catagory": "足球竞技",
+                "anchorLevelInfo": {
+                    "level": "41"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第6位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/31\/16\/8a971d8ca738cb42c2331936864ee75c_middle.jpg?rltime",
+                "anickname": "陆叁贰肆一台",
+                "owner_uid": "212654",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/26\/14\/91d65a34ee95d77d3e2f642e7ee1650e_middle.jpg?rltime",
+                "unickname": "混一哈",
+                "id": 7,
+                "uid": "48604893",
+                "gx": 20000,
+                "level": 103,
+                "noble_lvl": "6",
+                "is_stealth": "0",
+                "room_id": "6324",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "62"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第7位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/09\/05\/4805e97afdd5e15ed80b7cb2fd907779_middle.jpg?rltime",
+                "anickname": "混丶曼酱",
+                "owner_uid": "24969433",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/face\/201609\/02\/25ee81f2a80949135a88645fdf84859b_middle.jpg?rltime",
+                "unickname": "混丶纵火犯",
+                "id": 8,
+                "uid": "36122693",
+                "gx": 18000,
+                "level": 53,
+                "noble_lvl": "1",
+                "is_stealth": 0,
+                "room_id": "1558888",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "44"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第8位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/face\/201606\/19\/592fef63fb55c48c97e2bd1269b651b8_middle.jpg?rltime",
+                "anickname": "小周周Josie",
+                "owner_uid": "45546000",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/15\/01\/3746ff710029812b5a13ab6454c3a81e_middle.jpg?rltime",
+                "unickname": "Josie心里的大白鲨",
+                "id": 9,
+                "uid": "54680404",
+                "gx": 15000,
+                "level": 67,
+                "noble_lvl": "4",
+                "is_stealth": 0,
+                "room_id": "610254",
+                "catagory": "棋牌娱乐",
+                "anchorLevelInfo": {
+                    "level": "40"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第9位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/02\/14\/99164106d55b04a8348a7e8d0bba56ee_middle.jpg?rltime",
+                "anickname": "k1nbo",
+                "owner_uid": "13517317",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/default\/11_middle.jpg?rltime",
+                "unickname": "网红河",
+                "id": 10,
+                "uid": "143147723",
+                "gx": 15000,
+                "level": 26,
+                "noble_lvl": "2",
+                "is_stealth": 0,
+                "room_id": "2797328",
+                "catagory": "CS:GO",
+                "anchorLevelInfo": {
+                    "level": "23"
+                },
+                "user_identity": 0
+            }
+        ],
+        "monthListData": [
+            {
+                "statu": "0",
+                "title": "",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/000\/18\/41\/65_avatar_middle.jpg?rltime",
+                "anickname": "饼干狂魔MasterB",
+                "owner_uid": "184165",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/25\/08\/a42ad9a5956028dcd069acf6ec2ef99f_middle.jpg?rltime",
+                "unickname": "南派倒斗丶牛总",
+                "id": 1,
+                "uid": "92939658",
+                "gx": 730000,
+                "level": 112,
+                "noble_lvl": "6",
+                "is_stealth": "0",
+                "room_id": "4809",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "57"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "0",
+                "title": "",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201709\/04\/14\/a6e9253468cf64d3a52e648caa3b3ea0_middle.jpg?rltime",
+                "anickname": "英勇少女很可爱",
+                "owner_uid": "86638485",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/09\/16\/9d9d9a228561e127859bd363b58d540b_middle.jpg?rltime",
+                "unickname": "空空很可爱",
+                "id": 2,
+                "uid": "59714730",
+                "gx": 572000,
+                "level": 81,
+                "noble_lvl": "5",
+                "is_stealth": "0",
+                "room_id": "2386028",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "48"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "0",
+                "title": "",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/29\/19\/15362b6e45db2b30c4ab8721c04315a6_middle.jpg?rltime",
+                "anickname": "1201Xixi",
+                "owner_uid": "57772594",
+                "uavatar": "https:\/\/shark.douyucdn.cn\/app\/douyu\/res\/page\/room-normal\/vip\/invisible_list.png",
+                "unickname": "神秘人",
+                "id": 3,
+                "uid": "",
+                "gx": 512343,
+                "level": "",
+                "noble_lvl": "",
+                "is_stealth": "1",
+                "room_id": "785751",
+                "catagory": "穿越火线",
+                "anchorLevelInfo": {
+                    "level": "35"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "0",
+                "title": "",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/16\/05\/bda860adbd4cb79746a563dc1ea79b64_middle.jpg?rltime",
+                "anickname": "我爱吃远饭",
+                "owner_uid": "2137635",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/13\/15\/67c7ddaeb0c9f6c35bab791c4409801f_middle.jpg?rltime",
+                "unickname": "远饭集团行政总裁",
+                "id": 4,
+                "uid": "35769713",
+                "gx": 501960,
+                "level": 52,
+                "noble_lvl": "6",
+                "is_stealth": "0",
+                "room_id": "106917",
+                "catagory": "格斗游戏",
+                "anchorLevelInfo": {
+                    "level": "44"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "0",
+                "title": "",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/24\/18\/a1397d35f617466ec8cb7c3f48174780_middle.jpg?rltime",
+                "anickname": "阿冷aleng丶",
+                "owner_uid": "19494860",
+                "uavatar": "https:\/\/shark.douyucdn.cn\/app\/douyu\/res\/page\/room-normal\/vip\/invisible_list.png",
+                "unickname": "神秘人",
+                "id": 5,
+                "uid": "",
+                "gx": 355018,
+                "level": "",
+                "noble_lvl": "",
+                "is_stealth": "1",
+                "room_id": "2371789",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "88"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "0",
+                "title": "",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/24\/18\/a1397d35f617466ec8cb7c3f48174780_middle.jpg?rltime",
+                "anickname": "阿冷aleng丶",
+                "owner_uid": "19494860",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/27\/13\/bd07882ed7bdee14dd111a567101f4fc_middle.jpg?rltime",
+                "unickname": "龙啸天地间",
+                "id": 6,
+                "uid": "70872354",
+                "gx": 320000,
+                "level": 117,
+                "noble_lvl": "6",
+                "is_stealth": "0",
+                "room_id": "2371789",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "88"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "2",
+                "title": "之前排名第8位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201706\/29\/20\/64b39bcf6c3e3e46972258a26d5b78df_middle.jpg?rltime",
+                "anickname": "老实敦厚的笑笑",
+                "owner_uid": "5270773",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/face\/201604\/6fe53c24a1546811b1b4233cea68a459_middle.jpg?rltime",
+                "unickname": "萝卜1112",
+                "id": 7,
+                "uid": "44770635",
+                "gx": 300000,
+                "level": 51,
+                "noble_lvl": "3",
+                "is_stealth": 0,
+                "room_id": "154537",
+                "catagory": "英雄联盟",
+                "anchorLevelInfo": {
+                    "level": "68"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "2",
+                "title": "之前排名第9位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/14\/12\/b972901a71d1851fb04d594066072336_middle.jpg?rltime",
+                "anickname": "混沌帝龙",
+                "owner_uid": "1347790",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/default\/07_middle.jpg?rltime",
+                "unickname": "桂花酸梅2004",
+                "id": 8,
+                "uid": "152263851",
+                "gx": 300000,
+                "level": 71,
+                "noble_lvl": "3",
+                "is_stealth": 0,
+                "room_id": "101557",
+                "catagory": "装甲战争",
+                "anchorLevelInfo": {
+                    "level": "39"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第8位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/face\/201606\/19\/592fef63fb55c48c97e2bd1269b651b8_middle.jpg?rltime",
+                "anickname": "小周周Josie",
+                "owner_uid": "45546000",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201707\/15\/01\/3746ff710029812b5a13ab6454c3a81e_middle.jpg?rltime",
+                "unickname": "Josie心里的大白鲨",
+                "id": 9,
+                "uid": "54680404",
+                "gx": 289830,
+                "level": 67,
+                "noble_lvl": "4",
+                "is_stealth": 0,
+                "room_id": "610254",
+                "catagory": "棋牌娱乐",
+                "anchorLevelInfo": {
+                    "level": "40"
+                },
+                "user_identity": 0
+            },
+            {
+                "statu": "1",
+                "title": "之前排名第9位",
+                "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/001\/97\/44\/29_avatar_middle.jpg?rltime",
+                "anickname": "刘飞儿faye",
+                "owner_uid": "1974429",
+                "uavatar": "https:\/\/apic.douyucdn.cn\/upload\/avanew\/face\/201708\/26\/14\/91d65a34ee95d77d3e2f642e7ee1650e_middle.jpg?rltime",
+                "unickname": "混一哈",
+                "id": 10,
+                "uid": "48604893",
+                "gx": 251000,
+                "level": 103,
+                "noble_lvl": "6",
+                "is_stealth": "0",
+                "room_id": "265438",
+                "catagory": "炉石传说",
+                "anchorLevelInfo": {
+                    "level": "65"
+                },
+                "user_identity": 0
+            }
+        ]
+    }
+}

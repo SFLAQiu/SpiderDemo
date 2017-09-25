@@ -1,0 +1,8 @@
+斗鱼数据地址:
+    ☐ 主播排行
+        ☐ https://www.douyu.com/directory/rank_list/game
+            ☐ 页面数据对象：rankListData   
+    ☐ 主播房间信息
+        ☐ https://www.douyu.com/138286
+            ☐ 页面数据对象：$ROOM
+            ☐ 关注人数：fansNum/renderUserInfo
