@@ -1,4 +1,12 @@
 # coding:utf-8
+'''
+    作者：SFLYQ
+    功能：
+        学习Demo，抓取斗鱼排行主播的基本信息
+        申明：
+        我分享的爬虫功能仅供学习参考，如果拿去私用所有产生的后果由使用者自己承担
+'''
+
 import os
 import sys
 import re
