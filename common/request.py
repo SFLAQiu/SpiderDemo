@@ -4,9 +4,10 @@ import urllib2
 import urllib
 import cookielib
 import os
+import imghdr
 
 
-def get(url, headers={}):
+def get(url, headers={}, decode='utf-8'):
     '''
         get请求   
         * 'url' 请求地址    
@@ -16,14 +17,12 @@ def get(url, headers={}):
     response = urllib2.urlopen(request)
     response.encoding = 'utf-8'
 
-    if response.code == 200:
-        resStr = response.read().decode('utf-8')
-        return resStr
-    else:
-        return None
+    if decode is not None:
+        return response.read().decode(decode)
+    return response.read()
 
 
-def post(url, data={}, headers={}):
+def post(url, data={}, headers={}, decode='utf-8'):
     '''
         post请求
         * 'url' 请求地址    
@@ -33,8 +32,9 @@ def post(url, data={}, headers={}):
     request = urllib2.Request(url, headers=headers)
     data = urllib.urlencode(data)
     response = urllib2.urlopen(request, data=data)
-    response.encoding = 'utf-8'
-    return response.read().decode('utf-8')
+    if decode is not None:
+        return response.read().decode(decode)
+    return response.read()
 
 
 def __create_init(cookie_file_name="default", dir_path=None):
@@ -57,7 +57,8 @@ def post_cookie(url,
                 data,
                 dir_path=None,
                 cookie_file_name="default",
-                headers={}):
+                headers={},
+                decode='utf-8'):
     '''
         post请求，会自动带上cookie，如果有需要可以自己去初始化cookie文件里的cookie值
         * 'url' 请求的url地址
@@ -72,8 +73,9 @@ def post_cookie(url,
     params = urllib.urlencode(data)
     req = urllib2.Request(url, params, headers)
     response = opener.open(req)
-    response.encoding = 'utf-8'
     cookie.save(ignore_discard=True, ignore_expires=True)
+    if decode is not None:
+        return response.read().decode(decode)
     return response.read().decode('utf-8')
 
 
@@ -83,7 +85,8 @@ def get_cookie(url,
                headers={
                    "User-agent":
                    "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1"
-               }):
+               },
+               decode='utf-8'):
     '''
         get请求，会自动带上cookie，如果有需要可以自己去初始化cookie文件里的cookie值
         * 'url' 请求的url地址
@@ -96,6 +99,36 @@ def get_cookie(url,
     cookie = initObj[1]
     req = urllib2.Request(url, headers=headers)
     response = opener.open(req)
-    response.encoding = 'utf-8'
     cookie.save(ignore_discard=True, ignore_expires=True)
-    return response.read().decode('utf-8')
+    if decode is not None:
+        return response.read().decode(decode)
+    return response.read()
+
+
+def down_image(url,
+               path,
+               file_name,
+               extension="jpg",
+               headers={
+                   "User-agent":
+                   "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1"
+               },
+               decode='utf-8',
+               cookie_file_name="default"):
+    '''
+        图片下载
+        * 'url' 图片url地址
+        * 'path' 图片存储路径
+        * 'file_name' 图片存储文件名
+        * 'extension' 图片存储拓展名
+        * 'headers' 自定义请求头
+    '''
+    content = get_cookie(
+        url, headers=headers, cookie_file_name=cookie_file_name, decode=decode)
+    imgtype = imghdr.what('', h=content)
+    if not os.path.isdir(path):
+        os.makedirs(path)
+    if not imgtype:
+        imgtype = extension
+    with open(u'{}\\{}.{}'.format(path, file_name, imgtype), 'wb') as f:
+        f.write(content)

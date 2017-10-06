@@ -3,6 +3,7 @@ import os
 import re
 import random
 import time
+import hashlib
 '''
     文件帮助
 '''
@@ -56,7 +57,7 @@ def cnToNum(content):
     return content
 
 
-def sleep(sSeconds, eSeconds):
+def sleep(sSeconds, eSeconds, content=''):
     '''
         延迟
     '''
@@ -64,5 +65,45 @@ def sleep(sSeconds, eSeconds):
         return
     sleep_time = random.uniform(sSeconds, eSeconds)
     sleep_time = round(sleep_time, 3)
-    print u'随机延迟时间:%s秒' % sleep_time
+    print u'%s随机延迟时间:%s秒' % (content, sleep_time)
     time.sleep(sleep_time)
+
+
+def md5(content):
+    '''
+        md5加密
+        * 'content' 明文字符串
+    '''
+    if not isinstance(content, str):
+        return
+    m = hashlib.md5()
+    m.update(content)
+    return m.hexdigest()
+
+
+def get_sign(parames):
+    '''
+        请求参数签名加密
+        * 'parames' 参数字典
+    '''
+    if parames is None:
+        return
+    if not isinstance(parames, dict):
+        return
+    values = []
+    for key, val in parames.items():
+        values.append(str(val))
+    values.sort()
+    values_str = ','.join(values)
+    return md5(values_str + "_sflyq")
+
+
+def print_partition(content):
+    '''
+        分割线
+        'content' 分割线中间内容
+    '''
+    print ''
+    print u'********************%s[%s]********************' % (
+        content, time.strftime("%Y-%m-%d %H:%M:%S"))
+    print ''
