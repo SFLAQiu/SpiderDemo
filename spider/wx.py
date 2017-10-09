@@ -13,7 +13,6 @@ import json
 import urllib
 import re
 import time
-
 dir_path = os.path.split(os.path.realpath(__file__))[0]
 sys.path.append(dir_path + "/..")
 import common.request as rq

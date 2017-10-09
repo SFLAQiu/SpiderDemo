@@ -132,3 +132,15 @@ def down_image(url,
         imgtype = extension
     with open(u'{}\\{}.{}'.format(path, file_name, imgtype), 'wb') as f:
         f.write(content)
+
+
+def get_query_parames(data):
+    '''
+        获取url参数
+        * 'data' 数据字典
+    '''
+    if data is None:
+        return None
+    if not isinstance(data, dict):
+        return None
+    return urllib.urlencode(data)

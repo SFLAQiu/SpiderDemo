@@ -38,6 +38,16 @@ def parsePhone(content):
     return phoneNum
 
 
+def checkPhone(content):
+    '''
+        校验是否是手机号
+    '''
+    phoneNum = parsePhone(content)
+    if phoneNum is None:
+        return False
+    return True
+
+
 def cnToNum(content):
     '''
         中文数字转英文
@@ -107,3 +117,27 @@ def print_partition(content):
     print u'********************%s[%s]********************' % (
         content, time.strftime("%Y-%m-%d %H:%M:%S"))
     print ''
+
+
+def time_stamp():
+    '''
+        获取时间戳
+    '''
+    return int(time.time())
+
+
+def get_time_str(time_stamp):
+    '''
+        根据时间戳获取时间字符串
+    '''
+    time_tuple = get_time_tuple(time_stamp)
+    time_str = time.strftime("%Y-%m-%d %H:%M:%S", time_tuple)
+    print time_str
+
+
+def get_time_tuple(time_stamp):
+    '''
+        根据时间戳获取时间元组
+    '''
+    time_tuple = time.localtime(time_stamp)
+    return time_tuple
