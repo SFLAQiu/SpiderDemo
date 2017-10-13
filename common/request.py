@@ -5,6 +5,7 @@ import urllib
 import cookielib
 import os
 import imghdr
+import json
 
 
 def get(url, headers={}, decode='utf-8'):
@@ -42,10 +43,11 @@ def __create_init(cookie_file_name="default", dir_path=None):
         创建请求基础方法
     '''
     if dir_path is None:
-        dir_path = '%s\\cookie' % os.path.split(os.path.realpath(__file__))[0]
+        dir_path = os.path.split(os.path.realpath(__file__))[0]
+        dir_path = os.path.join(dir_path, 'cookie')
     if not os.path.isdir(dir_path):
         os.makedirs(dir_path)
-    filename = '%s\\%s.txt' % (dir_path, cookie_file_name)
+    filename = os.path.join(dir_path, '%s.txt' % cookie_file_name)
     cookie = cookielib.MozillaCookieJar(filename)
     if (os.path.exists(filename)):
         cookie.load(filename, ignore_discard=True, ignore_expires=True)
@@ -70,7 +72,15 @@ def post_cookie(url,
     initObj = __create_init(cookie_file_name, dir_path=dir_path)
     opener = initObj[0]
     cookie = initObj[1]
-    params = urllib.urlencode(data)
+    content_type = ''
+    # 校验Content-Type 类型，构造对应的类型参数
+
+    if headers.has_key('Content-Type') and headers['Content-Type'] is not None:
+        content_type = str(headers['Content-Type'])
+    if content_type.find('application/json') >= 0:
+        params = json.dumps(data)
+    else:
+        params = urllib.urlencode(data)
     req = urllib2.Request(url, params, headers)
     response = opener.open(req)
     cookie.save(ignore_discard=True, ignore_expires=True)
@@ -86,7 +96,8 @@ def get_cookie(url,
                    "User-agent":
                    "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1"
                },
-               decode='utf-8'):
+               decode='utf-8',
+               save_cookie=True):
     '''
         get请求，会自动带上cookie，如果有需要可以自己去初始化cookie文件里的cookie值
         * 'url' 请求的url地址
@@ -99,7 +110,8 @@ def get_cookie(url,
     cookie = initObj[1]
     req = urllib2.Request(url, headers=headers)
     response = opener.open(req)
-    cookie.save(ignore_discard=True, ignore_expires=True)
+    if save_cookie:
+        cookie.save(ignore_discard=True, ignore_expires=True)
     if decode is not None:
         return response.read().decode(decode)
     return response.read()
@@ -130,7 +142,8 @@ def down_image(url,
         os.makedirs(path)
     if not imgtype:
         imgtype = extension
-    with open(u'{}\\{}.{}'.format(path, file_name, imgtype), 'wb') as f:
+    file_path = os.path.join(path, u'{}.{}'.format(file_name, imgtype))
+    with open(file_path, 'wb') as f:
         f.write(content)
 
 

@@ -4,6 +4,8 @@ import re
 import random
 import time
 import hashlib
+import functools
+import urlparse
 '''
     文件帮助
 '''
@@ -19,7 +21,7 @@ def write_to_file(path, file_name, content, mode='a'):
     '''
     if not os.path.isdir(path):
         os.makedirs(path)
-    file_path = '%s\\%s' % (path, file_name)
+    file_path = os.path.join(path, file_name)
     f = open(file_path, mode)
     f.write(content.encode("utf-8"))
     f.close()
@@ -64,18 +66,35 @@ def cnToNum(content):
     content = content.replace(u"八", "8")
     content = content.replace(u"九", "9")
     content = content.replace(u"零", "0")
+    content = content.replace(u"壹", "1")
+    content = content.replace(u"贰", "2")
+    content = content.replace(u"叁", "3")
+    content = content.replace(u"肆", "4")
+    content = content.replace(u"伍", "5")
+    content = content.replace(u"陆", "6")
+    content = content.replace(u"柒", "7")
+    content = content.replace(u"捌", "8")
+    content = content.replace(u"玖", "9")
     return content
 
 
 def sleep(sSeconds, eSeconds, content=''):
     '''
-        延迟
+        随机延迟
     '''
     if sSeconds > eSeconds:
         return
     sleep_time = random.uniform(sSeconds, eSeconds)
     sleep_time = round(sleep_time, 3)
     print u'%s随机延迟时间:%s秒' % (content, sleep_time)
+    time.sleep(sleep_time)
+
+
+def sleep_time(sleep_time, content=''):
+    '''
+        延迟
+    '''
+    print u'%s延迟时间:%s秒' % (content, sleep_time)
     time.sleep(sleep_time)
 
 
@@ -126,6 +145,13 @@ def time_stamp():
     return int(time.time())
 
 
+def time_now_str(style='%Y-%m-%d %H:%M:%S'):
+    '''
+        获取当前时间
+    '''
+    return time.strftime(style)
+
+
 def get_time_str(time_stamp):
     '''
         根据时间戳获取时间字符串
@@ -141,3 +167,40 @@ def get_time_tuple(time_stamp):
     '''
     time_tuple = time.localtime(time_stamp)
     return time_tuple
+
+
+def show_excute_start_time(func):
+    '''
+        装饰器：显示开始执行时间
+    '''
+
+    @functools.wraps(func)
+    def show_time(*agrs, **kw):
+        print u'执行时间:%s' % time_now_str()
+        return func(*agrs, **kw)
+
+    return show_time
+
+
+def show_segmentation_line(func):
+    '''
+        装饰器：显示分割线
+    '''
+
+    @functools.wraps(func)
+    def segmentation_line(*agrs, **kw):
+        print ''
+        print u'-------------------------------------------------'
+        return func(*agrs, **kw)
+
+    return segmentation_line
+
+
+def url_query(url):
+    '''
+        解析url获取参数的字典
+    '''
+    if url is None:
+        return {}
+    query = urlparse.urlparse(url).query
+    return dict([(k, v[0]) for k, v in urlparse.parse_qs(query).items()])
