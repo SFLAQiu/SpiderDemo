@@ -6,6 +6,8 @@ import time
 import hashlib
 import functools
 import urlparse
+import zipfile
+import datetime
 '''
     文件帮助
 '''
@@ -96,6 +98,19 @@ def sleep_time(sleep_time, content=''):
     '''
     print u'%s延迟时间:%s秒' % (content, sleep_time)
     time.sleep(sleep_time)
+
+
+def sleep_minute(interval, content=''):
+    second = interval * 60
+    print u'%s延迟时间:%s分钟' % (content, interval)
+    time.sleep(second)
+
+
+def sleep_minute_random(s_interval, e_interval, content=''):
+    interval = random.uniform(s_interval, e_interval)
+    interval = round(interval)
+    print u'%s延迟时间:%s分钟' % (content, interval)
+    time.sleep(interval * 60)
 
 
 def md5(content):
@@ -204,3 +219,74 @@ def url_query(url):
         return {}
     query = urlparse.urlparse(url).query
     return dict([(k, v[0]) for k, v in urlparse.parse_qs(query).items()])
+
+
+def path_absolute(dir=''):
+    '''
+        获取绝对路径
+    '''
+    dir_path = os.path.split(os.path.realpath(__file__))[0]
+    if dir is not None and dir != '':
+        dir_path = u'%s/%s' % (dir_path, dir)
+    return dir_path
+
+
+def excute_time(title):
+    '''
+        方法执行时间装饰器
+    '''
+
+    def fn_timer(func):
+        @functools.wraps(func)
+        def function_timer(*args, **kwargs):
+            t0 = time.time()
+            result = func(*args, **kwargs)
+            t1 = time.time()
+            print("Total time running %s: %s seconds" % (title, str(t1 - t0)))
+            return result
+
+        return function_timer
+
+    return fn_timer
+
+
+def zip_file(file_dir, save_dir, filename, mode='a'):
+    '''
+        文件zip压缩
+        * 'file_dir' 需要压缩的文件路径
+        * 'save_dir' 压缩文件的存储路径
+        * 'filename' 压缩文件的文件名
+        * 'mode' zip 操作文件的mode类型
+    '''
+    if not os.path.exists(file_dir):
+        return False, u'zip_file=>file_dir=\'%s\'文件路径不存在' % file_dir
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
+    # zip文件地址
+    zip_file_path = u'%s/%s.zip' % (save_dir, filename)
+    # 如果存在zip先删除
+    if os.path.exists(zip_file_path):
+        os.remove(zip_file_path)
+    # zip压缩
+    z = zipfile.ZipFile(zip_file_path, mode, zipfile.ZIP_DEFLATED)
+    for dirpath, dirnames, filenames in os.walk(file_dir):
+        for filename in filenames:
+            z.write('%s/%s' % (file_dir, filename), filename)
+            # print u'%s' % filename
+    z.close()
+    return True, None
+
+
+def remove_emoji(text):
+    '''
+        过滤emoji表情符号
+    '''
+    emoji_pattern = re.compile(
+        u"(\ud83d[\ude00-\ude4f])|"  # emoticons
+        u"(\ud83c[\udf00-\uffff])|"  # symbols & pictographs (1 of 2)
+        u"(\ud83d[\u0000-\uddff])|"  # symbols & pictographs (2 of 2)
+        u"(\ud83d[\ude80-\udeff])|"  # transport & map symbols
+        u"(\ud83c[\udde0-\uddff])"  # flags (iOS)
+        "+",
+        flags=re.UNICODE)
+    return emoji_pattern.sub(r'', text)
