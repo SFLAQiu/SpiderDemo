@@ -5,9 +5,10 @@ import random
 import time
 import hashlib
 import functools
-import urlparse
 import zipfile
 import datetime
+import threading
+import urllib
 '''
     文件帮助
 '''
@@ -25,8 +26,26 @@ def write_to_file(path, file_name, content, mode='a'):
         os.makedirs(path)
     file_path = os.path.join(path, file_name)
     f = open(file_path, mode)
-    f.write(content.encode("utf-8"))
+    f.write(content)
     f.close()
+
+
+def read_from_file(path, file_name, mode='r'):
+    '''
+        读文件内容
+        * 'path' 路径
+        * 'file_name' 文件名，需要包括文件拓展名
+        * 'mode' r=只读,w=只写,a=追加,r+,w+,a+
+    '''
+    if not os.path.isdir(path):
+        os.makedirs(path)
+    file_path = os.path.join(path, file_name)
+    if not os.path.exists(file_path):
+        return
+    f = open(file_path, mode)
+    content = f.read()
+    f.close()
+    return content
 
 
 def parsePhone(content):
@@ -35,11 +54,21 @@ def parsePhone(content):
     '''
     if content is None:
         return None
-    re_phone = re.search(r'[1][3,4,5,7,8][0-9]{9}', content, re.S)
+    re_phone = re.search(r'[1][3,4,5,6,7,8,9][0-9]{9}', content, re.S)
     phoneNum = None
     if re_phone:
         phoneNum = re_phone.group()
     return phoneNum
+
+
+def parseNum(content):
+    '''
+        解析字符串中的数字
+    '''
+    if content is None:
+        return None
+    re_nums = re.findall(r'(\d+)', content, re.S)
+    return re_nums
 
 
 def checkPhone(content):
@@ -88,7 +117,7 @@ def sleep(sSeconds, eSeconds, content=''):
         return
     sleep_time = random.uniform(sSeconds, eSeconds)
     sleep_time = round(sleep_time, 3)
-    print u'%s随机延迟时间:%s秒' % (content, sleep_time)
+    print(u'%s随机延迟时间:%s秒' % (content, sleep_time))
     time.sleep(sleep_time)
 
 
@@ -96,20 +125,36 @@ def sleep_time(sleep_time, content=''):
     '''
         延迟
     '''
-    print u'%s延迟时间:%s秒' % (content, sleep_time)
+    print(u'%s延迟时间:%s秒' % (content, sleep_time))
     time.sleep(sleep_time)
+
+
+def sleep_hour(interval, content=''):
+    second = interval * 60 * 60
+    print(u'%s延迟时间:%s小时' % (content, interval))
+    time.sleep(second)
+
+
+def sleep_hour_random(s_interval, e_interval, content=''):
+    '''
+        延随机延迟小时
+    '''
+    interval = random.uniform(s_interval, e_interval)
+    interval = round(interval)
+    print(u'%s延迟时间:%s小时' % (content, interval))
+    time.sleep(interval * 60 * 60)
 
 
 def sleep_minute(interval, content=''):
     second = interval * 60
-    print u'%s延迟时间:%s分钟' % (content, interval)
+    print(u'%s延迟时间:%s分钟' % (content, interval))
     time.sleep(second)
 
 
 def sleep_minute_random(s_interval, e_interval, content=''):
     interval = random.uniform(s_interval, e_interval)
     interval = round(interval)
-    print u'%s延迟时间:%s分钟' % (content, interval)
+    print(u'%s延迟时间:%s分钟' % (content, interval))
     time.sleep(interval * 60)
 
 
@@ -147,10 +192,20 @@ def print_partition(content):
         分割线
         'content' 分割线中间内容
     '''
-    print ''
-    print u'********************%s[%s]********************' % (
-        content, time.strftime("%Y-%m-%d %H:%M:%S"))
-    print ''
+    print('')
+    print('****************************************')
+    print(content, time.strftime("%Y-%m-%d %H:%M:%S"))
+    print('****************************************')
+    print('')
+
+
+def time_add_days(numbers):
+    '''
+        当前时间+n天
+    '''
+    now = datetime.datetime.now().date()
+    date = now + datetime.timedelta(days=numbers)
+    return date
 
 
 def time_stamp():
@@ -173,7 +228,7 @@ def get_time_str(time_stamp):
     '''
     time_tuple = get_time_tuple(time_stamp)
     time_str = time.strftime("%Y-%m-%d %H:%M:%S", time_tuple)
-    print time_str
+    print(time_str)
 
 
 def get_time_tuple(time_stamp):
@@ -191,7 +246,7 @@ def show_excute_start_time(func):
 
     @functools.wraps(func)
     def show_time(*agrs, **kw):
-        print u'执行时间:%s' % time_now_str()
+        print(u'执行时间:%s' % time_now_str())
         return func(*agrs, **kw)
 
     return show_time
@@ -204,8 +259,8 @@ def show_segmentation_line(func):
 
     @functools.wraps(func)
     def segmentation_line(*agrs, **kw):
-        print ''
-        print u'-------------------------------------------------'
+        print('')
+        print(u'-------------------------------------------------')
         return func(*agrs, **kw)
 
     return segmentation_line
@@ -217,8 +272,8 @@ def url_query(url):
     '''
     if url is None:
         return {}
-    query = urlparse.urlparse(url).query
-    return dict([(k, v[0]) for k, v in urlparse.parse_qs(query).items()])
+    query = urllib.parse.urllib.parse(url).query
+    return dict([(k, v[0]) for k, v in urllib.parse.parse_qs(query).items()])
 
 
 def path_absolute(dir=''):
@@ -272,7 +327,7 @@ def zip_file(file_dir, save_dir, filename, mode='a'):
     for dirpath, dirnames, filenames in os.walk(file_dir):
         for filename in filenames:
             z.write('%s/%s' % (file_dir, filename), filename)
-            # print u'%s' % filename
+            # print(u'%s' % filename)
     z.close()
     return True, None
 
@@ -290,3 +345,55 @@ def remove_emoji(text):
         "+",
         flags=re.UNICODE)
     return emoji_pattern.sub(r'', text)
+
+
+def go_handle(snum, enum, handle_fn):
+    '''
+        构建上报数据，并上报存储
+    '''
+    if snum > enum:
+        print(u'sum不能大于enum')
+        return
+
+    for num in range(snum, enum + 1):
+        handle_fn(num)
+
+
+def thread_handle(snum, enum, section, handle_fn):
+    '''
+        多线程处理
+    '''
+    threads = []
+    while snum < enum:
+        end = snum + section
+        if end > enum:
+            end = enum
+        t = threading.Thread(target=go_handle, args=(snum, end, handle_fn))
+        print(u'添加线程处理区间:%s-%s' % (snum, end))
+        threads.append(t)
+        snum = end
+    print("go")
+    for t in threads:
+        t.setDaemon(True)
+        t.start()
+    # 等待所有线程完成
+    for t in threads:
+        t.join()
+    print('over')
+
+
+def re_search(pattern, content):
+    '''
+        正则查询
+    '''
+    if content is None:
+        return None
+    re_target = re.search(pattern, content, re.S)
+    return re_target
+
+
+# print(u'iOS 模块详解—「Runtime面试、工作」看我就 🐒 了 ^_^.')
+# print(parseNum(u'啊啊发发的1发3sd444fsd'))
+# a = "123abc456"
+# mobj = parseNum(a)
+# print(mobj)
