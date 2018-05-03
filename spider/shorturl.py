@@ -10,7 +10,7 @@ import os
 import sys
 dir_path = os.path.split(os.path.realpath(__file__))[0]
 sys.path.append(dir_path + "/..")
-import common.request as rq
+import commons.request as rq
 import json
 import random
 
@@ -45,11 +45,12 @@ def ft12(url):
     sel_type = random.randint(0, count - 1)
     api_url = 'http://www.ft12.com/create.php?m=index&a=urlCreate'
     try:
-        html = rq.post(api_url,
-                       {'url': url.encode('utf-8'),
-                        'type': types[sel_type]})
-    except Exception, ex:
-        print ex
+        html = rq.post(api_url, {
+            'url': url.encode('utf-8'),
+            'type': types[sel_type]
+        })
+    except Exception as ex:
+        print(ex)
         return
     json_data = json.loads(html)
     url = json_data['list']
@@ -68,6 +69,6 @@ def random_url(url):
     return url
 
 
-# print random_url('http://www.baidu.com')
-# print ft12('http://www.baidu.com')
-# print suo('http://www.baidu.com')
+print(random_url('http://www.baidu.com'))
+print(ft12('http://www.baidu.com'))
+print(suo('http://www.baidu.com'))

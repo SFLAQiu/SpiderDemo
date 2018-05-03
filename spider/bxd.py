@@ -18,26 +18,26 @@ import threading
 from pyquery import PyQuery as jquery
 dir_path = os.path.split(os.path.realpath(__file__))[0]
 sys.path.append(dir_path + "/..")
-import common.request as rq
+import commons.request as rq
 
 proxyDatas = []
 
 
 def getComment(questionNum):
     url = u'http://www.bxd365.com/qa/%s.html' % questionNum
-    print u"开始解析:%s" % url
+    print(u"开始解析:%s" % url)
     try:
         html = rq.get(url)
-    except Exception, e:
-        print e
+    except Exception as e:
+        print(e)
         return
     doc = jquery(html)
     replys = doc.find(".reply li")
     if replys is None:
-        print u'无评论数据'
+        print(u'无评论数据')
         return
     if len(replys) <= 0:
-        print u'评论数量为0'
+        print(u'评论数量为0')
         return
     for item in replys:
         parseComment(questionNum, item)
@@ -45,7 +45,7 @@ def getComment(questionNum):
 
 def parseComment(questionNum, commentItem):
     if commentItem is None:
-        print u'评论标签不存在'
+        print(u'评论标签不存在')
         return
     commentJq = jquery(commentItem)
     # 机构
@@ -55,12 +55,12 @@ def parseComment(questionNum, commentItem):
     # 回复内容
     replys = commentJq.find(".div2 p")
     if replys is None:
-        print u'评论回复为空'
+        print(u'评论回复为空')
         return
     # 解析回复内容
     proxyReply = replys[0]
     if proxyReply is None:
-        print u'无代理人回复'
+        print(u'无代理人回复')
         return
     proxyReplyJq = jquery(proxyReply)
     proxyReplyComment = proxyReplyJq.html()
@@ -70,10 +70,11 @@ def parseComment(questionNum, commentItem):
     proxyReplyComment = proxyReplyComment.replace(u"_", "")
     proxyReplyComment = proxyReplyComment.replace(u"—", "")
     phone = parsePhone(proxyReplyComment)
-    saveHandle(questionNum,
-               {"proxy": proxy,
-                "organization": organization,
-                "phone": phone})
+    saveHandle(questionNum, {
+        "proxy": proxy,
+        "organization": organization,
+        "phone": phone
+    })
     return
 
 
@@ -108,19 +109,19 @@ def cnToNum(content):
 
 def saveHandle(questionNum, data):
     if data is None:
-        print u'无法解析出代理人回复内容，跳过'
+        print(u'无法解析出代理人回复内容，跳过')
         return
     proxy = data['proxy']
     organization = data['organization']
     phone = data['phone']
     # 输出信息
-    print organization, proxy, phone
+    print(organization, proxy, phone)
     if phone is None:
-        print u'无可用手机号'
+        print(u'无可用手机号')
         return
     # 校验是否存在
     if phone in proxyDatas:
-        print u'手机号存在记录中'
+        print(u'手机号存在记录中')
         return
     # 写文件保存
     data_path = os.path.split(os.path.realpath(__file__))[0] + "\\datas\\"
@@ -132,13 +133,13 @@ def saveHandle(questionNum, data):
     f.write(content.encode("utf-8"))
     f.close()
     proxyDatas.append(phone)
-    print u'保存代理人和手机号成功'
+    print(u'保存代理人和手机号成功')
 
 
 # 260000
 def goHandle(snum, enum):
     if snum > enum:
-        print 'sum不能大于enum'
+        print('sum不能大于enum')
         return
 
     for num in range(snum, enum):
@@ -152,17 +153,17 @@ def init(snum, enum, section):
         if end > enum:
             end = enum
         t = threading.Thread(target=goHandle, args=(snum, end))
-        print u'添加线程处理区间:%s-%s' % (snum, end)
+        print(u'添加线程处理区间:%s-%s' % (snum, end))
         threads.append(t)
         snum = end
-    print "go"
+    print("go")
     for t in threads:
         t.setDaemon(True)
         t.start()
     # 等待所有线程完成
     for t in threads:
         t.join()
-    print 'over'
+    print('over')
 
 
 init(200000, 260000, 2000)
