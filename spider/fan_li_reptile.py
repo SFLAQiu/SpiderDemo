@@ -9,9 +9,12 @@
     申明：
         我分享的爬虫功能仅供学习参考，如果拿去私用所有产生的后果由使用者自己承担
 '''
-
-import urllib2
+import os
+import sys
+dir_path = os.path.split(os.path.realpath(__file__))[0]
+sys.path.append(dir_path + "/..")
 from pyquery import PyQuery as jquery
+import commons.request as rq
 
 
 # 爬虫Demo1 爬虫返利网的品牌数据
@@ -20,8 +23,7 @@ class FanLiReptile:
 
     # 获取返利网品牌数据
     def GetBrandData(self):
-        rs = urllib2.urlopen(self._url, timeout=10)
-        html = rs.read().decode('utf-8')
+        html = rq.get(self._url)
         doc = jquery(html)
         brandJqs = doc.find('.super-mod')
         allNum = brandJqs.length  # 总数量
@@ -33,7 +35,7 @@ class FanLiReptile:
                 print('解析没有mod-intro标签')
                 continue
             scNum += 1
-            print brandJq.find('.mod-intro').html()
+            print(brandJq.find('.mod-intro').html())
         print('成功获取的品牌数据数量：%s,解析失败数量:%s' % (scNum, allNum - scNum))
 
 

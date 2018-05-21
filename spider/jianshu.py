@@ -16,8 +16,8 @@ import sys
 from pyquery import PyQuery as jquery
 dir_path = os.path.split(os.path.realpath(__file__))[0]
 sys.path.append(dir_path + "/..")
-import common.request as rq
-import common.helper as hp
+import commons.request as rq
+import commons.helper as hp
 # import re
 # import time
 import html2text
@@ -54,15 +54,15 @@ def specialArticles(key, source, page=1):
     url = __special_newlike_url.format(key)
     htmlStr = rq.get(url)
     if (not htmlStr):
-        print u'获取html失败'
+        print(u'获取html失败')
         return
     jq_dom = jquery(htmlStr)
     if (not jq_dom):
-        print u'无法解析页面dom'
+        print(u'无法解析页面dom')
         return
     dom_contents = jq_dom.find('.content')
     if (not dom_contents):
-        print u'无法解析文章内容'
+        print(u'无法解析文章内容')
         return
     articles = []
     for item in dom_contents:
@@ -73,10 +73,10 @@ def specialArticles(key, source, page=1):
         dom_comments = jq_content_item.find('.ic-list-comments')
         dom_like = jq_content_item.find('.ic-list-like')
         if (not dom_title):
-            print u'无法解析 title'
+            print(u'无法解析 title')
             continue
         if (not dom_time):
-            print u'无法解析 time'
+            print(u'无法解析 time')
             continue
         # 解析文章信息
         article_read = int(dom_read.parent().text())
@@ -89,27 +89,27 @@ def specialArticles(key, source, page=1):
         # artitle_time = time.strptime(artitle_time, '%Y %m %d %H:%M:%S')
         article_url = '{host}{href}'.format(
             host=__jianshu_host, href=artitle_href)
-        print u'获得文章：', hp.remove_emoji(
-            article_title), article_url, artitle_time
+        print(u'获得文章：', hp.remove_emoji(), article_title, article_url,
+              artitle_time)
         if (article_read < 100):
-            print u'文章阅读量<100，不爬取'
+            print(u'文章阅读量<100，不爬取')
             continue
         if (article_like < 1):
-            print u'文章收藏量<10，不爬取'
+            print(u'文章收藏量<10，不爬取')
             continue
         if (article_comments < 1):
-            print u'文章评论量<3，不爬取'
+            print(u'文章评论量<3，不爬取')
             continue
         # 获取文章内容
         content_html = getArticleContent(article_url)
         if (not content_html):
-            print u'无法获取博文内容'
+            print(u'无法获取博文内容')
             continue
         # 文章内容字符串处理
         content_html = content_html.replace('data-original-', '')
         content_markdown = getCotentMarkDown(content_html)
         # markdown内容字符串处理
-        #content_markdown = content_markdown.replace("|", "-")
+        # content_markdown = content_markdown.replace("|", "-")
         articles.append({
             'title': article_title,
             'url': article_url,
@@ -126,13 +126,13 @@ def getArticleContent(url):
     '''
     # show-content
     if (not url):
-        print '非法地址'
+        print('非法地址')
         return
     htmlStr = rq.get(url)
     jq_dom = jquery(htmlStr)
     jq_content = jq_dom.find('.show-content')
     content_html = jq_content.html()
-    # print content_html
+    # print(content_html)
     return content_html
 
 
@@ -154,7 +154,7 @@ def getAllSpecialArticles():
     for special in __specials:
         title = special['title']
         key = special['key']
-        print u'开始爬:%s' % title
+        print(u'开始爬:%s' % title)
         articles = specialArticles(key, title)
         allArticles += articles
     return allArticles
@@ -175,7 +175,7 @@ def pushArticle(articles):
         上报文章内容
     '''
     if not articles:
-        print u'需要存储的articles为空'
+        print(u'需要存储的articles为空')
         return
     for item in articles:
         jsonStr = json.dumps(item)
@@ -184,8 +184,8 @@ def pushArticle(articles):
         if (rs > 0):
             __r.lpush(__cache_current_key, jsonStr)
             add_expire(__cache_current_key, 0.5)
-        rsStr = u'bingo' if (rs > 0L) else u'存在'
-        print u'push文章', item['title'], rsStr
+        rsStr = u'bingo' if (rs > 0) else u'存在'
+        print(u'push文章', item['title'], rsStr)
 
 
 def add_expire(chache_name, expire_days):
@@ -202,12 +202,12 @@ def main():
     if need:
         try:
             articles = getAllSpecialArticles()
-            print u'获取到文章总数:%s' % len(articles)
+            print(u'获取到文章总数:%s' % len(articles))
             pushArticle(articles)
-        except Exception, ex:
-            print u'err %s' % ex
+        except Exception as ex:
+            print(u'err %s' % ex)
     else:
-        print u'文章还没有被消耗，我休息下爬'
+        print(u'文章还没有被消耗，我休息下爬')
     # 继续爬取文章
     hp.sleep_minute(60, u"文章爬取间隔")
     main()
@@ -223,8 +223,8 @@ main()
 # content_html = getArticleContent('http://www.jianshu.com/p/c0e5c13d5ecb')
 # content_html = content_html.replace('data-original-', '')
 # content_markdown = getCotentMarkDown(content_html)
-# print content_markdown
+# print(content_markdown)
 # # markdown内容字符串处理
 # content_markdown = content_markdown.replace("|", "-")
-# print getCotentMarkDown(contentStr)
+# print(getCotentMarkDown(contentStr))
 # pushArticle([{'title': 'aaa', 'url': 'vbvv'}])

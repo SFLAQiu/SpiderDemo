@@ -53,8 +53,8 @@ import sys
 import json
 dir_path = os.path.split(os.path.realpath(__file__))[0]
 sys.path.append(dir_path + "/..")
-import common.request as rq
-import common.helper as hp
+import commons.request as rq
+import commons.helper as hp
 
 # 主账号红包领取接口地址
 __get_hongbao_url = 'http://restapi.ele.me/marketing/promotion/weixin/oEGLvjstpZQYptuG78YA2PWbvoYE'
@@ -83,8 +83,8 @@ def get_hongbao(url, ele_data):
             ele_data,
             cookie_file_name="ele",
             headers={'Content-Type': 'application/json'})
-    except Exception, e:
-        print e
+    except Exception as e:
+        print(e)
         return
     hb_data = json.loads(html)
     return hb_data
@@ -95,24 +95,24 @@ def go_run():
     '''
         go抢饿了么红包
     '''
-    print u'饿了么红包【%s】' % __group_sn
+    print(u'饿了么红包【%s】' % __group_sn)
     hb_json = get_hongbao(__get_hongbao_url, __ele_data_xh)
     if hb_json is None:
-        print u'无红包数据'
+        print(u'无红包数据')
         return
     promotion_records = hb_json['promotion_records']
     if promotion_records is None:
-        print u'无红包领取记录'
+        print(u'无红包领取记录')
         return
     # 输出楼层情况
     current_num = len(promotion_records)
     next_num = current_num + 1
-    print u'当前已抢楼层总数:%s,下一个抢红包楼层:%s' % (current_num, next_num)
+    print(u'当前已抢楼层总数:%s,下一个抢红包楼层:%s' % (current_num, next_num))
     # 校验是否还有大红包
     if next_num == __big_num:
-        print u'有大红包了，快动手'
+        print(u'有大红包了，快动手')
         hb_json = get_hongbao(url=__get_hongbao_url_dh, ele_data=__ele_data_dh)
-        print u'已经出手'
+        print(u'已经出手')
         hp.sleep_time(3, u'领取红包')
 
     # 列出当前已经抢列表
@@ -120,15 +120,15 @@ def go_run():
         level = index + 1
         username = item['sns_username']
         amount = item['amount']
-        print u'第%s个,参与人:%s,抢到金额:%s' % (level, username, amount)
+        print(u'第%s个,参与人:%s,抢到金额:%s' % (level, username, amount))
         if level == __big_num and username == __ele_data_dh['weixin_username']:
-            print u'bingo! 红包已经到手!'
+            print(u'bingo! 红包已经到手!')
             return
     # 校验是否还有大红包
     if next_num > __big_num:
-        print u'失手了，再来个红包吧'
+        print(u'失手了，再来个红包吧')
         return
-    print u'目标：拿下第%s楼层，继续监控，伺机而动！' % __big_num
+    print(u'目标：拿下第%s楼层，继续监控，伺机而动！' % __big_num)
     # 延迟，以免被限制
     hp.sleep_time(3, u'请求红包详情')
     go_run()
@@ -175,26 +175,27 @@ def init():
         初始化操作
     '''
     global __group_sn, __big_num
-    hb_url = raw_input(u"红包地址:\r\n".encode('gb2312'))
+
+    hb_url = input(u"红包地址:\r\n".encode('gb2312'))
     if hb_url is None or hb_url == '':
-        print u'非法红包地址'
+        print(u'非法红包地址')
         return
     # 解析参数
     hb_url = hb_url.replace('#', '')
     url_query = hp.url_query(hb_url)
     __big_num = 0
     # 获取红包信息
-    if url_query.has_key('sn'):
+    if 'sn' in url_query:
         __group_sn = url_query['sn']
-    if url_query.has_key('lucky_number'):
+    if 'lucky_number' in url_query:
         __big_num = url_query['lucky_number']
     # 校验红包信息合法性
     __big_num = int(__big_num)
     if __group_sn is None or __group_sn == '':
-        print u'非法红包标识'
+        print(u'非法红包标识')
         return
     if __big_num is None or __big_num <= 0:
-        print u'非法大红包楼层'
+        print(u'非法大红包楼层')
         return
     # 初始化构建数据
     bulild()

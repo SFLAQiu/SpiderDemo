@@ -14,7 +14,7 @@ import json
 from enum import Enum
 dir_path = os.path.split(os.path.realpath(__file__))[0]
 sys.path.append(dir_path + "/..")
-import common.request as rq
+import commons.request as rq
 '''
     主播排行数据抓取
 '''
@@ -70,7 +70,7 @@ def douyu_rank(rankName, statType):
     # 正则解析出数据
     mt = re.search(r'rankListData\s+?=(.*?);', rs, re.S)
     if (not mt):
-        print u"无法解析rankListData数据"
+        print(u"无法解析rankListData数据")
         return
     grps = mt.groups()
     # 数据转json
@@ -93,7 +93,7 @@ def douyu_room(romm_id):
         headers={'User-Agent': 'Mozilla/5.0'})
     mt = re.search(r'\$ROOM\s+?=\s+?({.*?});', rs, re.S)
     if (not mt):
-        print u"无法解析ROOM数据"
+        print(u"无法解析ROOM数据")
         return
     grps = mt.groups()
     roomDataStr = grps[0]
@@ -106,7 +106,7 @@ def run():
         测试爬虫
     '''
     datas = douyu_rank(ERankName.anchor, EStatType.month)
-    print '\r\n排行榜：'
+    print('\r\n排行榜：')
     for item in datas:
         room_id = item['room_id']
         roomData = douyu_room(room_id)
@@ -114,8 +114,8 @@ def run():
         if roomData is not None:
             rommName = roomData['room_name']
         roomInfo = (u'房间(%s):%s' % (item['room_id'], rommName))
-        print item['id'], item[
-            'nickname'], roomInfo, '[' + item['catagory'] + ']'
+        print(item['id'], item['nickname'], roomInfo,
+              '[' + item['catagory'] + ']')
 
 
 run()
